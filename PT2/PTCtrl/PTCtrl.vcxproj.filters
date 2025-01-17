@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{2f95f60b-97df-45fe-873e-60d5885dfb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\PTCtrl">
+      <UniqueIdentifier>{f75dd3a8-d8e4-463d-b8fb-4f06aaa6c220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{aa4694f4-d31a-4f42-b775-0503fdc5b41d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\PTCtrl">
+      <UniqueIdentifier>{11f1d8f8-f90d-4f99-8711-83a666518e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\EARTH_inc">
+      <UniqueIdentifier>{a86d23a3-3dba-4ffb-bf51-75908600ef4c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\src\PipeServer.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\PT1CreateCtrlCmdUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\PT1SendCtrlCmdUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\ServiceUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\StringUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\src\Util.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataIO.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MicroPacketUtil.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PT1Ctrl.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PT1CtrlMain.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PT1Manager.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>ソース ファイル\PTCtrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\inc\PipeServer.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1CreateCtrlCmdUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1OutsideCtrlCmdDef.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\PT1SendCtrlCmdUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\ServiceUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\StringUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\inc\Util.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\EARTH_PT.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\OS_Library.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\Prefix.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="EARTH_inc\Prefix_Integer.h">
+      <Filter>ヘッダー ファイル\EARTH_inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\DataIO.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\MicroPacketUtil.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PT1Ctrl.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PT1CtrlMain.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\PT1Manager.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\resource.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\stdafx.h">
+      <Filter>ヘッダー ファイル\PTCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\Common\compatibility.manifest">
+      <Filter>リソース ファイル</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PTCtrl.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="IDI_PTCTRL.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
